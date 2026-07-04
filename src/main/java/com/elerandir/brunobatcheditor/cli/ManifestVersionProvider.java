@@ -1,4 +1,4 @@
-package com.elerandir.brunobatchprocessor.cli;
+package com.elerandir.brunobatcheditor.cli;
 
 import picocli.CommandLine.IVersionProvider;
 

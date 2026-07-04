@@ -1,10 +1,10 @@
-package com.elerandir.brunobatchprocessor.cli;
+package com.elerandir.brunobatcheditor.cli;
 
-import com.elerandir.brunobatchprocessor.AppComponent;
-import com.elerandir.brunobatchprocessor.BatchProcessor;
-import com.elerandir.brunobatchprocessor.DaggerAppComponent;
-import com.elerandir.brunobatchprocessor.model.ReplacementResult;
-import com.elerandir.brunobatchprocessor.model.RuntimeConfig;
+import com.elerandir.brunobatcheditor.AppComponent;
+import com.elerandir.brunobatcheditor.BatchProcessor;
+import com.elerandir.brunobatcheditor.DaggerAppComponent;
+import com.elerandir.brunobatcheditor.model.ReplacementResult;
+import com.elerandir.brunobatcheditor.model.RuntimeConfig;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
