@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.concurrent.Callable;
 
 @Command(
-        name = "bruno-batch-processor",
+        name = "bruno-batch-editor",
         mixinStandardHelpOptions = true,
         versionProvider = ManifestVersionProvider.class,
         description = "Batch-replace a literal string in every request body across .bru files."
