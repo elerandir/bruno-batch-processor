@@ -1,0 +1,15 @@
+# gitleaks configuration: extend the default rules and allowlist test fixtures.
+# Test resources legitimately contain fake/placeholder secrets used to exercise
+# the code; they are not real credentials.
+title = "gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Test sources/resources contain only fake, non-sensitive secrets"
+paths = [
+  '''src/test/.*''',
+]
+# Add specific placeholder values here if any live outside src/test, e.g.:
+# regexes = [ '''EXAMPLE_FAKE_TOKEN_VALUE''' ]
